@@ -1,6 +1,7 @@
 /*
-注意情况："ab" "aa"
--->双向map
+1. 注意情况："ab" "aa"
+    -->双向map
+2. 可以用char map[256]数组替代unordered_map
 */
 class Solution {
 public:
