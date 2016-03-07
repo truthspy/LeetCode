@@ -22,7 +22,7 @@ public:
     }
 };
 
-//用哈希表查找
+//用哈希表查找（可以边插入边查，只需要遍历一次）
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
