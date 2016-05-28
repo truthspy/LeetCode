@@ -5,8 +5,8 @@ public:
         vector<vector<int>> adjGraph(numCourses);
         int edgeSize = prerequisites.size();
         for(int i = 0; i < edgeSize; i ++) {
-            int l = prerequisites[i].first;
-            int r = prerequisites[i].second;
+            int l = prerequisites[i].second;
+            int r = prerequisites[i].first;
             adjGraph[l].push_back(r);
             inDegree[r] ++;
         }
