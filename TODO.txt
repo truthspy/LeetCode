@@ -3,3 +3,4 @@
 2. 树状数组
 3. 图相关解法
 4. Union Find
+5. Search in Rotated总结
