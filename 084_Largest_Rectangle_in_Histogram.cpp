@@ -2,6 +2,7 @@
  * 比丢名言：栈里面存的是左边离它最近的比它小的
  * 还是看了答案
  * 大概hard就是想不出来吧。。。
+ * http://blog.csdn.net/doc_sgl/article/details/11805519
  */
 class Solution {
 public:
