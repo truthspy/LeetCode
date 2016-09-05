@@ -48,6 +48,8 @@ public:
         return res;
     }
 };
+// 可以不用reverse，知道每层的size之后可以计算出该点的index，直接存入数组中
+// 或者用deque
 /*
 class Solution {
 public:
